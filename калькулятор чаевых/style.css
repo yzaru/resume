@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    display: flex;
+    justify-content:center;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+}
+
+html {
+    background: grey;
+}
+
+.all{
+    width: 400px;
+    background: #360160;
+    padding: 30px 60px;
+}
+
+h1 {
+    width: 380px;
+    font-size: 52px;
+    line-height: 48px;
+    color: #FFDC40;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+label {
+    width: 380px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+input, select {
+    width: 380px;
+    height: 50px;
+    left: 60px;
+    background: #FFFFFF;
+    border: 2px solid #A4CEF4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    padding-left: 30px;
+}
+
+
+
+button {
+    width: 180px;
+    height: 60px;
+    font-family: Roboto;
+}
+
+.count {
+    background: #FFDC40;
+    margin-right: 20px;
+}
+
+.reset {
+    background: #7C7A7A;
+    color: white;
+}
+
+.oneperson, .allpersons {
+    display: flex;
+    flex-direction: row;
+}
+
+.zzz {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.count, .reset {   
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+
+.button-container {
+    margin-top: 8px;
+}
+
+.oneperson, .allpersons {
+    margin-top: 25px;
+}
+
+.oneperson {
+    margin-top: 60px;
+}
+
